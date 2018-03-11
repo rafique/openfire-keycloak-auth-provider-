@@ -10,6 +10,7 @@ Installation
 		
 3. Configure openfire/conf/openfire.xml
 
+```	
 	<provider>
   		<auth>
   			<className>me.rafique.openfire.auth.HybridAuthProvider</className>
@@ -23,4 +24,4 @@ Installation
   			<className>me.rafique.openfire.auth.KeycloakAuthProvider</className>
   		</secondaryProvider>
   	</hybridAuthProvider>
-
+```
